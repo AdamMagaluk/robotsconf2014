@@ -1,0 +1,174 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/ApigeeCorporation/.nvm/v0.10.32/bin/node',
+1 verbose cli   '/Users/ApigeeCorporation/.nvm/v0.10.32/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'zetta',
+1 verbose cli   'zetta-pinoccio-driver',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json PinoccioZetta@1.0.0 No description
+5 warn package.json PinoccioZetta@1.0.0 No repository field.
+6 warn package.json PinoccioZetta@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'zetta', null ]
+9 verbose cache add name=undefined spec="zetta" args=["zetta",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'zetta',
+10 verbose parsed url   path: 'zetta',
+10 verbose parsed url   href: 'zetta' }
+11 verbose cache add [ 'zetta-pinoccio-driver', null ]
+12 verbose cache add name=undefined spec="zetta-pinoccio-driver" args=["zetta-pinoccio-driver",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'zetta-pinoccio-driver',
+13 verbose parsed url   path: 'zetta-pinoccio-driver',
+13 verbose parsed url   href: 'zetta-pinoccio-driver' }
+14 silly lockFile 0d6cfd68-zetta zetta
+15 verbose lock zetta /Users/ApigeeCorporation/.npm/0d6cfd68-zetta.lock
+16 silly lockFile e6b3cf4c-zetta-pinoccio-driver zetta-pinoccio-driver
+17 verbose lock zetta-pinoccio-driver /Users/ApigeeCorporation/.npm/e6b3cf4c-zetta-pinoccio-driver.lock
+18 silly lockFile e6b3cf4c-zetta-pinoccio-driver zetta-pinoccio-driver
+19 silly lockFile e6b3cf4c-zetta-pinoccio-driver zetta-pinoccio-driver
+20 silly lockFile 0d6cfd68-zetta zetta
+21 silly lockFile 0d6cfd68-zetta zetta
+22 verbose addNamed [ 'zetta-pinoccio-driver', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile a52bd301-zetta-pinoccio-driver zetta-pinoccio-driver@
+25 verbose lock zetta-pinoccio-driver@ /Users/ApigeeCorporation/.npm/a52bd301-zetta-pinoccio-driver.lock
+26 verbose addNamed [ 'zetta', '' ]
+27 verbose addNamed [ null, '*' ]
+28 silly lockFile b8b66808-zetta zetta@
+29 verbose lock zetta@ /Users/ApigeeCorporation/.npm/b8b66808-zetta.lock
+30 silly addNameRange { name: 'zetta-pinoccio-driver', range: '*', hasData: false }
+31 silly addNameRange { name: 'zetta', range: '*', hasData: false }
+32 verbose request where is /zetta-pinoccio-driver
+33 verbose request registry https://registry.npmjs.org/
+34 verbose request id 016b1ff2cc778ef4
+35 verbose url raw /zetta-pinoccio-driver
+36 verbose url resolving [ 'https://registry.npmjs.org/', './zetta-pinoccio-driver' ]
+37 verbose url resolved https://registry.npmjs.org/zetta-pinoccio-driver
+38 verbose request where is https://registry.npmjs.org/zetta-pinoccio-driver
+39 info trying registry request attempt 1 at 11:27:59
+40 http GET https://registry.npmjs.org/zetta-pinoccio-driver
+41 verbose request where is /zetta
+42 verbose request registry https://registry.npmjs.org/
+43 verbose url raw /zetta
+44 verbose url resolving [ 'https://registry.npmjs.org/', './zetta' ]
+45 verbose url resolved https://registry.npmjs.org/zetta
+46 verbose request where is https://registry.npmjs.org/zetta
+47 info trying registry request attempt 1 at 11:27:59
+48 verbose etag "7HMDXID6081ZSTYDB2ANDFILR"
+49 http GET https://registry.npmjs.org/zetta
+50 http 404 https://registry.npmjs.org/zetta-pinoccio-driver
+51 verbose headers { date: 'Sat, 06 Dec 2014 16:27:59 GMT',
+51 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+51 verbose headers   'content-type': 'application/json',
+51 verbose headers   'cache-control': 'max-age=0',
+51 verbose headers   'content-length': '52',
+51 verbose headers   'accept-ranges': 'bytes',
+51 verbose headers   via: '1.1 varnish',
+51 verbose headers   age: '0',
+51 verbose headers   'x-served-by': 'cache-atl6225-ATL',
+51 verbose headers   'x-cache': 'MISS',
+51 verbose headers   'x-cache-hits': '0',
+51 verbose headers   'x-timer': 'S1417883279.688623,VS0,VE29',
+51 verbose headers   'keep-alive': 'timeout=10, max=50',
+51 verbose headers   connection: 'Keep-Alive' }
+52 silly registry.get cb [ 404,
+52 silly registry.get   { date: 'Sat, 06 Dec 2014 16:27:59 GMT',
+52 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+52 silly registry.get     'content-type': 'application/json',
+52 silly registry.get     'cache-control': 'max-age=0',
+52 silly registry.get     'content-length': '52',
+52 silly registry.get     'accept-ranges': 'bytes',
+52 silly registry.get     via: '1.1 varnish',
+52 silly registry.get     age: '0',
+52 silly registry.get     'x-served-by': 'cache-atl6225-ATL',
+52 silly registry.get     'x-cache': 'MISS',
+52 silly registry.get     'x-cache-hits': '0',
+52 silly registry.get     'x-timer': 'S1417883279.688623,VS0,VE29',
+52 silly registry.get     'keep-alive': 'timeout=10, max=50',
+52 silly registry.get     connection: 'Keep-Alive' } ]
+53 silly lockFile a52bd301-zetta-pinoccio-driver zetta-pinoccio-driver@
+54 silly lockFile a52bd301-zetta-pinoccio-driver zetta-pinoccio-driver@
+55 http 304 https://registry.npmjs.org/zetta
+56 silly registry.get cb [ 304,
+56 silly registry.get   { date: 'Sat, 06 Dec 2014 16:27:59 GMT',
+56 silly registry.get     server: 'Apache',
+56 silly registry.get     via: '1.1 varnish',
+56 silly registry.get     'last-modified': 'Sat, 06 Dec 2014 16:27:59 GMT',
+56 silly registry.get     'cache-control': 'max-age=60',
+56 silly registry.get     etag: '"7HMDXID6081ZSTYDB2ANDFILR"',
+56 silly registry.get     age: '0',
+56 silly registry.get     'x-served-by': 'cache-atl6224-ATL',
+56 silly registry.get     'x-cache': 'MISS',
+56 silly registry.get     'x-cache-hits': '0',
+56 silly registry.get     'x-timer': 'S1417883279.690132,VS0,VE73',
+56 silly registry.get     vary: 'Accept',
+56 silly registry.get     'content-length': '0',
+56 silly registry.get     'keep-alive': 'timeout=10, max=50',
+56 silly registry.get     connection: 'Keep-Alive' } ]
+57 verbose etag https://registry.npmjs.org/zetta from cache
+58 silly addNameRange number 2 { name: 'zetta', range: '*', hasData: true }
+59 silly addNameRange versions [ 'zetta',
+59 silly addNameRange   [ '0.0.1',
+59 silly addNameRange     '0.0.2',
+59 silly addNameRange     '0.0.3',
+59 silly addNameRange     '0.1.0',
+59 silly addNameRange     '0.1.1',
+59 silly addNameRange     '0.2.0',
+59 silly addNameRange     '0.3.0',
+59 silly addNameRange     '0.4.0',
+59 silly addNameRange     '0.5.0',
+59 silly addNameRange     '0.6.0',
+59 silly addNameRange     '0.7.0',
+59 silly addNameRange     '0.8.0',
+59 silly addNameRange     '0.9.0',
+59 silly addNameRange     '0.10.0',
+59 silly addNameRange     '0.11.0',
+59 silly addNameRange     '0.12.0',
+59 silly addNameRange     '0.13.0',
+59 silly addNameRange     '0.14.0',
+59 silly addNameRange     '0.15.0',
+59 silly addNameRange     '0.16.0',
+59 silly addNameRange     '0.17.0',
+59 silly addNameRange     '0.18.0' ] ]
+60 verbose addNamed [ 'zetta', '0.18.0' ]
+61 verbose addNamed [ '0.18.0', '0.18.0' ]
+62 silly lockFile b54fd8a5-zetta-0-18-0 zetta@0.18.0
+63 verbose lock zetta@0.18.0 /Users/ApigeeCorporation/.npm/b54fd8a5-zetta-0-18-0.lock
+64 silly lockFile b54fd8a5-zetta-0-18-0 zetta@0.18.0
+65 silly lockFile b54fd8a5-zetta-0-18-0 zetta@0.18.0
+66 silly lockFile b8b66808-zetta zetta@
+67 silly lockFile b8b66808-zetta zetta@
+68 error 404 404 Not Found: zetta-pinoccio-driver
+68 error 404
+68 error 404 'zetta-pinoccio-driver' is not in the npm registry.
+68 error 404 You should bug the author to publish it
+68 error 404 It was specified as a dependency of 'PinoccioZetta'
+68 error 404
+68 error 404 Note that you can also install from a
+68 error 404 tarball, folder, or http url, or git url.
+69 error System Darwin 14.0.0
+70 error command "/Users/ApigeeCorporation/.nvm/v0.10.32/bin/node" "/Users/ApigeeCorporation/.nvm/v0.10.32/bin/npm" "install" "zetta" "zetta-pinoccio-driver" "--save"
+71 error cwd /Users/ApigeeCorporation/Software/robotsconf2014/PinoccioZetta
+72 error node -v v0.10.32
+73 error npm -v 1.4.28
+74 error code E404
+75 verbose exit [ 1, true ]
